@@ -1,0 +1,534 @@
+html {
+    font-family: "Arial, Helvetica, sans-serif";
+}
+
+.outergrid {
+    border: 2px solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 65px;
+    margin-right: 10px;
+}
+
+.ao-elements {
+    display: inline-block;
+    border: 2px solid;
+    margin-left: -6px;
+    margin-top: 10px;
+    width: 145px;
+    height: 34px;
+    font-size: 16px;
+    padding-top: 4px;
+    font-weight: 800;
+}
+
+.ao-elements:first-child {
+    margin-left: 10px;
+}
+
+.ac:first-child {
+    margin-left: 2px;
+}
+
+.ac {
+    height: 30px;
+    width: 49px;
+    border-radius: 0;
+    /*border-color: #000;*/
+    margin-left: -5px;
+    border: 2px solid;
+}
+
+.ao {
+    height: 30px;
+    width: 72px;
+    border-radius: 0;
+    /*border-color: #000;*/
+    margin-left: -5px;
+    border: 2px solid;
+}
+
+.rc {
+    height: 30px;
+    width: 49px;
+    border-radius: 0;
+    /*border-color: #000;*/
+    margin-left: -5px;
+    border: 2px solid;
+}
+
+.aon {
+    height: 30px;
+    width: 72px;
+    border-radius: 0;
+    /*border-color: #000;*/
+    margin-left: -5px;
+    border: 2px solid;
+}
+
+.ao-table {
+    border: 2px solid;
+}
+
+.label-adjustment-1 {
+    margin-left: 50px;
+}
+
+.label-adjustment-2 {
+    margin-right: 30px;
+}
+
+
+/*main form*/
+
+.user-txt {
+    height: 30px;
+    width: 30px;
+    border-radius: 0;
+    border-color: #000;
+    margin-left: -5px;
+    padding: 6px 7px;
+    text-align: center;
+}
+
+.user-email {
+    width: 92%;
+}
+
+.user-mail {
+    margin-top: 10px;
+}
+
+.form-group {
+    margin-top: 2px;
+}
+
+.form-group label {
+    margin-left: 30px;
+    font-weight: normal;
+}
+
+.form-control {
+    display: inline;
+}
+
+label span {
+    margin-left: 20px;
+}
+
+.para-adjustment-2 {
+    padding-left: 32px;
+}
+
+.checkbox input[type="checkbox"] {
+    /*width: 40%;*/
+    /*height: 40px;*/
+    transform: scale(1.5);
+}
+
+.checkbox {
+    position: relative;
+    display: block;
+    margin-top: -3px;
+    margin-bottom: 10px;
+    white-space: nowrap;
+}
+
+.bus-form {
+    margin-top: -7px;
+}
+
+.gender {
+    position: relative;
+    display: block;
+    margin-top: -26px;
+    margin-bottom: 10px;
+    margin-left: 444px;
+}
+
+.options {
+    margin-left: 4px;
+}
+
+.para-adjustment-8 {
+    margin-left: -34px;
+}
+
+.etc-3 {
+    width: 25px;
+    height: 24px;
+    font-size: 20px;
+    margin: -1px -1px 3px -1px;
+    border: 1px solid;
+}
+
+.etc-4 {
+    width: 25px;
+    height: 24px;
+    font-size: 20px;
+    margin: -1px -1px 3px -1px;
+    border: 1px solid;
+    background-image: url("https://nexnet.files.wordpress.com/2013/02/kliponious-black-tick.png");
+    background-size: 22px 22px;
+}
+
+.etc-5 {
+    width: 70%;
+    height: 24px;
+    font-size: 20px;
+    margin-top: 3px;
+    border: 1px solid;
+}
+
+.etc-6 {
+    width: 30%;
+    height: 24px;
+    font-size: 20px;
+    border: 1px solid;
+}
+
+.etc-7 {
+    width: 70%;
+    height: 24px;
+    font-size: 20px;
+    border: 1px solid;
+}
+
+.etc-8 {
+    width: 44%;
+    height: 24px;
+    font-size: 20px;
+    border: 1px solid;
+}
+
+.container1 {
+    border-style: solid;
+    margin: 18px 30px;
+}
+
+.row-adjustment-1 {
+    font-weight: bold;
+    margin-left: 3px;
+}
+
+.box-layout {
+    broder-radius: 0;
+}
+
+.row-adjustment-11 {
+    margin-left: 3px;
+}
+
+.row-adjustment-2 {
+    margin-left: inherit;
+}
+
+.row-adjustment-3 {
+    margin-top: 20px;
+    margin-left: inherit;
+}
+
+.row-adjustment-4 {
+    margin-left: inherit;
+}
+
+.row-adjustment-6 {
+    margin-left: 2px;
+}
+
+
+/*ids*/
+
+#ao-value {
+    margin-top: -18px;
+    padding: 6px 9px;
+}
+
+#left-photo {
+    float: left;
+    width: 175px;
+    height: 253px;
+    margin-top: 9px;
+    margin-left: -9px;
+    border: 1px solid;
+}
+
+#left-photo-place {
+    font-size: 12px;
+    height: 220px;
+    padding: 62px 50px 0px 50px;
+    line-height: 14px;
+}
+
+#left-desc {
+    font-size: 11px;
+    border-top: 1px solid;
+}
+
+#useremail {
+    margin-left: -84px;
+}
+
+#form-heading {
+    float: left;
+    margin-left: 9%;
+    margin-top: -15px;
+}
+
+#form-desc {
+    font-size: 16px;
+    margin-top: -9px;
+    margin-left: -35px;
+}
+
+#form-desc-1 {
+    font-size: 13px;
+    line-height: 12px;
+    margin-top: -22px;
+    margin-left: -36px;
+}
+
+#right-photo {
+    font-size: 12px;
+    float: right;
+    width: 175px;
+    height: 220px;
+    margin-top: 9px;
+    margin-right: -9px;
+    border: 1px solid;
+    padding: 62px 50px 0px 50px;
+    line-height: 14px;
+}
+
+#ao-code {
+    float: left;
+}
+
+#table-style {
+    width: 214%;
+    margin-top: 12px;
+    margin-left: 12px;
+}
+
+#ao-heading {
+    margin-top: 19px;
+    margin-left: 34px;
+}
+
+#down {
+    margin-left: 30px;
+}
+
+#heading3 {
+    font-size: 19px;
+}
+
+#para-adjustment-1 {
+    padding-left: 3px;
+}
+
+#div-adjustment-1 {
+    margin-bottom: 4px;
+}
+
+#thumb-impression {
+    /*position: absolute;*/
+    margin-top: 99px;
+    float: right;
+    border: 1px solid;
+    width: 360px;
+    height: 158px;
+    margin-right: -175px;
+}
+
+#thumb-impression-photo {
+    height: 132px;
+}
+
+#thumb-impression-desc {
+    font-size: 13px;
+    border-top: 1px solid;
+}
+
+#form-start {
+    margin-top: 80px;
+    float: left;
+    font-size: 18px;
+    margin-left: -11px;
+}
+
+#text-adjustment-1 {
+    padding-right: 28px;
+}
+
+#img-adjustment {
+    height: 20px;
+    margin-left: -22px;
+}
+
+#text-adjustment-2 {
+    padding-left: 5px;
+}
+
+#form-group1 {
+    margin-left: 35px;
+}
+
+#div-adjustment-2 {
+    margin-top: -1px;
+}
+
+#text-adjustment-3 {
+    padding-right: 28px;
+}
+
+#img2 {
+    height: 20px;
+    margin-left: -22px;
+}
+
+#text-adjustment-4 {
+    margin-left: 5px;
+}
+
+#label3,
+#etc-2 {
+    margin-left: 14px;
+}
+
+#label-adjustment-4 {
+    font-weight: bold;
+}
+
+#label-adjustment-5 {
+    margin-left: 150px;
+}
+
+#label-adjustment-6 {
+    margin-left: 100px;
+}
+
+#etc-1 {
+    border-radius: 0;
+    border-color: #000;
+    height: 30px;
+    width: 500px;
+    margin-left: 30px;
+}
+
+#line926 {
+    border-radius: 0;
+    border-color: #000;
+    height: 30px;
+    width: 330px;
+    margin-left: -5px;
+}
+
+#label-adjustment-7 {
+    margin-left: 100px;
+}
+
+#line1142 {
+    border-radius: 0;
+    border-color: #000;
+    height: 30px;
+    width: 500px;
+    margin-left: 30px;
+}
+
+#line1150 {
+    border-radius: 0;
+    border-color: #000;
+    height: 30px;
+    width: 330px;
+    margin-left: -5px;
+}
+
+#div-adjustment-3 {
+    margin-left: 29px;
+    margin-bottom: 6px;
+}
+
+#div-adjustment-4 {
+    margin-left: 29px;
+}
+
+#div-adjustment-5 {
+    margin-left: -1px;
+}
+
+#div-adjustment-6 {
+    margin-left: 23px;
+}
+
+#div-adjustment-7 {
+    margin-left: -19px;
+}
+
+#para-adjustment-3 {
+    margin-left: -22px;
+    margin-top: -11px;
+}
+
+#para-adjustment-4 {
+    margin-left: -22px;
+    margin-top: -11px;
+}
+
+#para-adjustment-5 {
+    margin-top: -12px;
+    margin-left: -16px;
+}
+
+#para-adjustment-6 {
+    margin-left: -77px;
+}
+
+#para-adjustment-7 {
+    margin-left: 64px;
+}
+
+. #para-adjustment-9 {
+    margin-left: -77px;
+}
+
+#div-adjustment-8 {
+    margin-top: -32px;
+    margin-left: 112px;
+}
+
+#para-adjustment-10 {
+    border-style: solid;
+    border-width: thin;
+    height: 140px;
+    margin-top: -19px;
+}
+
+#div-adjustment-9 {
+    margin-top: -12px;
+}
+
+#para-adjustment-11 {
+    border-style: solid;
+    border-width: thin;
+    padding: 2px;
+}
+
+#etc-8 {
+    margin-left: 117px !important;
+}
+
+#text {
+    margin-left: 40px;
+    font-size: 15px;
+    word-spacing: 5px;
+}
+
+#etc-9 {
+    margin-left: 40px;
+    font-size: 15px;
+}
+
+#etc-10 {
+    text-align: left;
+}

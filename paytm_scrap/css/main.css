@@ -1,0 +1,370 @@
+html {
+    font-family: Open Sans, arial, tahoma, verdana, sans-serif;
+    font-size: 62.5%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    font-size: 1.4rem;
+    font-weight: 400;
+    background-color: #f3f7f8;
+    line-height: 1.5;
+}
+
+
+.middle-layer {
+    background: #012b72;
+    text-align: left;
+    height: 200px;
+}
+
+.middle-layer .middle-layer-2 {
+    width: 94%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.middle-layer .middle-layer-2 .middle-format {
+    width: 8.333%;
+    display: inline-block;
+    margin: 8px 0;
+    position: relative;
+    text-align: center;
+}
+
+.middle-layer .middle-layer-2 .middle-format .middle-elements {
+    display: inline-block;
+    color: #c2c2c2;
+    text-align: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.middle-layer .middle-layer-2 .middle-format .middle-elements .middle-images {
+    height: 24px;
+    vertical-align: middle;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.middle-icon-desc {
+    margin-top: 4px;
+    font-size: 12px;
+    color: #fff;
+    opacity: .5;
+    display: block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.extra-display {
+    margin-top: 7px;
+    height: 3px;
+    background-color: #00b9f5;
+}
+
+.mainContainer {
+    width: 94%;
+    margin: 0 auto;
+}
+
+.form-container {
+    border-radius: 3px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .05);
+    background-color: #fff;
+    margin: -124px auto 0;
+    padding: 30px 30px 20px;
+}
+
+.book-container {
+    width: 94%;
+    border-radius: 3px;
+    background-color: #fff;
+    padding: 30px 30px 20px;
+    border-radius: 3px;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, .05);
+    margin: auto;
+    margin-top: 16px;
+    padding: 30px 30px 20px;
+}
+
+.more-items {
+    width: 94%;
+    border-radius: 3px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .05);
+    background-color: #fff;
+    margin: 40px auto 0;
+    padding: 30px 30px 20px;
+}
+
+.image-set {
+    padding-bottom: 40px;
+}
+
+
+/*new css*/
+
+._2nhb {
+    width: 100%;
+    background: #f3f7f8;
+    height: 23px;
+    padding: 0 4%;
+}
+
+._2nhb ._3VzI {
+    float: left;
+}
+
+._2nhb ._1F92 {
+    float: right;
+    white-space: nowrap;
+}
+
+._2nhb ._3VzI ._2egn {
+    font-size: 1.3rem;
+    padding: 0 3px;
+    border-radius: 3px;
+    margin-top: 1px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #828282;
+}
+
+._2nhb ._1F92 ._3Qsk ._2egn::before {
+    content: '|';
+    position: absolute;
+    top: -2px;
+    left: -10px;
+}
+
+._2nhb ._1F92 ._3Qsk ._2egn {
+    font-size: 1.2rem;
+    color: #828282;
+    text-decoration: none;
+    margin: 0 7px;
+    border-radius: 3px;
+    cursor: pointer;
+    position: relative;
+}
+._3i4X {
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    font-weight: 600;
+    color: #494949;
+    margin: 0 auto 20px;
+}
+
+._2Qte {
+    width: 100%;
+    display: inline-block;
+}
+
+._2nSW {
+    width: 80%;
+    float: left;
+    margin-top: 15px;
+}
+
+.OdDe {
+    width: 100%;
+    display: inline-block;
+}
+
+.radioInfo:first-child {
+    margin-left: 0;
+}
+
+.radioInfo {
+    float: left;
+    margin-left: 40px;
+}
+
+._7U3b,
+.OdDe,
+ul._2sqw {
+    width: 100%;
+}
+
+ul._2sqw > li {
+    width: 33%;
+    float: left;
+    margin-top: 10px;
+    min-height: 55px;
+    padding-right: 3%;
+    list-style: none;
+    position: relative;
+}
+
+.mdInputCont {
+    height: 40px;
+    padding: 0;
+}
+
+.mdInputCont .placeholder {
+    position: relative;
+    top: -2px;
+    pointer-events: none;
+    width: 100%;
+}
+
+.mdInputCont input {
+    width: 100%;
+    margin-top: auto;
+    padding: 2px 2px 1px;
+    line-height: 2.6rem;
+    font-size: 1.4rem;
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+
+ul._2sqw > li ._3y8H {
+    position: absolute;
+    width: 130px;
+    right: 10%;
+    font-size: 1.1rem;
+    top: 9px;
+    color: #00b9f5;
+    text-align: right;
+    cursor: pointer;
+}
+
+._2NcV {
+    width: 20%;
+    float: left;
+}
+
+._2Y-v ._1zZC {
+    display: block;
+    margin-bottom: 10px;
+}
+
+._2Y-v ._1zZC input {
+    display: inline-block;
+    float: left;
+    margin-top: 3px;
+}
+
+.iconFastForward {
+    width: 21px;
+    height: 18px;
+    background-position: -109px -201px;
+    background-size: 252px;
+    float: left;
+}
+
+.iconSp {
+    background-image: url(//assetscdn.paytm.com/dexter/e93faa800c31bdf02496c85ebab84029.png);
+    background-size: 430px 371px;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+._2Y-v ._1zZC ._3T4z {
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: #00b9f5;
+    padding-left: 8px;
+    display: inline-block;
+    float: left;
+}
+
+._2Y-v ._1zZC .JlU4 {
+    font-size: 1.1rem;
+    font-style: italic;
+    display: block;
+    color: #909090;
+    padding-left: 24px;
+    font-weight: 300;
+    min-height: 32px;
+    float: left;
+}
+
+._3MjJ {
+    background: #00b9f5;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0;
+    min-height: 40px;
+    text-transform: none;
+    padding: 0 15px;
+    outline: 0;
+    border: 0;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.4rem;
+    width: 100%;
+}
+
+.Geht {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #494949;
+    line-height: 1.6rem;
+}
+
+._1_yq {
+    margin: 15px -22px 0;
+}
+
+._1lrV {
+    position: relative;
+    width: 100%;
+}
+
+._1Z9G {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: visible;
+}
+
+._3sJ6 {
+    height: 100%;
+    overflow: hidden;
+}
+
+.IANV {
+    height: 100%;
+    position: relative;
+}
+
+._2EKu {
+    display: inline-block;
+    height: 100%;
+    min-height: 1px;
+    vertical-align: bottom;
+}
+
+._17WC {
+    display: block;
+    width: 100%;
+    margin: 8px 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+._1tnO {
+    display: inline-block;
+    cursor: pointer;
+}
+
+._17WC a {
+    text-decoration: none;
+}
+
+._1s60 {
+    max-width: 31px;
+    height: 24px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.KKNr {
+    margin-top: 6px;
+    font-size: 1.1rem;
+    color: #909090;
+    display: block;
+    white-space: nowrap;
+}

@@ -1,0 +1,12 @@
+.abc {
+    background-color: transparent;
+    border-bottom: none;
+}
+
+.xyz:focus {
+    background-color: transparent;
+}
+
+.bread {
+    background-color: transparent;
+}

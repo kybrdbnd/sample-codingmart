@@ -1,0 +1,76 @@
+/* Generic Selectors */
+
+body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    /*font-size: 14px;*/
+    color: #333333;
+    /*background-color: black;*/
+}
+
+#heading {
+    border-bottom: 1px solid black;
+}
+
+#heading:hover {
+    color: grey;
+}
+
+#content {
+    font-size: .95rem;
+    font-style: italic;
+    font-weight: 700;
+}
+
+#heading-1 {
+    font-size: 2.1rem;
+}
+
+li {
+    display: inline-block;
+    padding: 5px 50px 3px 3px;
+}
+
+ul li a:hover {
+    text-decoration: none;
+    color: green;
+}
+
+
+p: active {
+    color: blue;
+}
+
+ul li a: link {
+    color: purple;
+}
+
+.display-image {
+    padding: 0 0 20px 0;
+    display: inline;
+}
+
+.image-fix {
+    border-radius: 10px;
+    width: 33%;
+    height: 40%;
+}
+
+img:hover {
+    opacity: .35;
+    cursor: pointer;
+}
+.contact-us{
+    display: inline;
+}
+
+.container{
+    float: left;
+}
+
+.container.contact{
+    width: 40%;
+}
+
+.container.location{
+    width:60%;
+}

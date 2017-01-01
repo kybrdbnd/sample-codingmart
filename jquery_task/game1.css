@@ -1,0 +1,33 @@
+#can {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    border: 2px solid;
+}
+
+#can1 {
+    position: absolute;
+    top: 10%;
+    left: 60%;
+    border: 2px solid;
+}
+
+#image-position {
+    margin-left: 775px;
+     height: 400px !important;
+    width: 400px !important;
+}
+
+
+.can2 {
+    position: relative;
+    margin-top: 57px !important;
+    margin-right: 109.5px;
+    float: right;
+    border: 2px solid;
+}
+
+img{
+    position: fixed;
+/*    z-index: 1;*/
+}
