@@ -1,0 +1,14 @@
+1)
+
+select shop_id from Flowers_Shops where flower_id=2;
+
+select count(*) from Flowers_Shops where flower_id=2;
+
+
+
+2) 
+
+
+
+
+

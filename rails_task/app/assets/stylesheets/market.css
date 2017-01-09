@@ -1,0 +1,27 @@
+table,
+th,
+td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#warehouse-details {
+    margin: 2em;
+}
+
+#shops-details,
+#owners-details,
+#flowers-details {
+    position: relative;
+    display: inline-block;
+    margin: 2em;
+}
+
+#warehouse-shop-relation,
+#onwner-shop-relation,
+#shop-flower-relation,
+#warehouse-flower-relation,
+#warehouse-owner-relation {
+    display: inline-block;
+    margin: 2em;
+}

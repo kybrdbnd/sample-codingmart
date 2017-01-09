@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170106121915) do
+ActiveRecord::Schema.define(version: 20170109124607) do
 
   create_table "customers", force: :cascade do |t|
     t.datetime "created_at", null: false
@@ -23,6 +23,12 @@ ActiveRecord::Schema.define(version: 20170106121915) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string   "flowerType"
+    t.integer  "cost"
+  end
+
+  create_table "flowers_shops", force: :cascade do |t|
+    t.integer "shop_id"
+    t.integer "flower_id"
   end
 
   create_table "orders", force: :cascade do |t|
@@ -38,10 +44,17 @@ ActiveRecord::Schema.define(version: 20170106121915) do
   end
 
   create_table "shops", force: :cascade do |t|
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at",   null: false
+    t.datetime "updated_at",   null: false
     t.string   "name"
     t.string   "location"
+    t.integer  "warehouse_id"
+    t.integer  "owner_id"
+  end
+
+  create_table "shops_flowers", force: :cascade do |t|
+    t.integer "shop_id"
+    t.integer "flower_id"
   end
 
   create_table "warehouses", force: :cascade do |t|
@@ -49,6 +62,7 @@ ActiveRecord::Schema.define(version: 20170106121915) do
     t.datetime "updated_at", null: false
     t.string   "name"
     t.string   "location"
+    t.integer  "quantity"
   end
 
 end
