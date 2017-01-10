@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170109124607) do
+ActiveRecord::Schema.define(version: 20170110125646) do
 
   create_table "customers", force: :cascade do |t|
     t.datetime "created_at", null: false
@@ -26,14 +26,20 @@ ActiveRecord::Schema.define(version: 20170109124607) do
     t.integer  "cost"
   end
 
-  create_table "flowers_shops", force: :cascade do |t|
-    t.integer "shop_id"
-    t.integer "flower_id"
+  create_table "flowers_shops", id: false, force: :cascade do |t|
+    t.integer "flower_id", null: false
+    t.integer "shop_id",   null: false
+    t.index ["flower_id"], name: "index_flowers_shops_on_flower_id"
+    t.index ["shop_id"], name: "index_flowers_shops_on_shop_id"
   end
 
   create_table "orders", force: :cascade do |t|
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
+    t.integer  "shop_id"
+    t.integer  "customer_id"
+    t.integer  "flower_id"
+    t.integer  "quantity"
   end
 
   create_table "owners", force: :cascade do |t|
@@ -50,11 +56,6 @@ ActiveRecord::Schema.define(version: 20170109124607) do
     t.string   "location"
     t.integer  "warehouse_id"
     t.integer  "owner_id"
-  end
-
-  create_table "shops_flowers", force: :cascade do |t|
-    t.integer "shop_id"
-    t.integer "flower_id"
   end
 
   create_table "warehouses", force: :cascade do |t|

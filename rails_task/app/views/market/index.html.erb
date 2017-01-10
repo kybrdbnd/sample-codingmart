@@ -1,125 +1,16 @@
 <%= stylesheet_link_tag "market.css" %>
 
-<div id="warehouse-details">
-<h2>Warehouse Details</h2>
-<table>
-	<tr>
-		<th>Name</th>
-		<th>Location</th>
-		<th>Quantity</th>
-	</tr>
-	<% @warehouses.each do |warehouse| %>
-	<tr>
-		<td><%= warehouse.name %></td>
-		<td><%= warehouse.location %></td>
-		<td><%= warehouse.quantity %></td>
-	</tr>
-	<% end %>
-</table>
-</div>
-
 <div>
-<div id="shops-details">
-<h2> Shops Details</h2>
-	<table>
-	<tr>
-		<th>Name</th>
-		<th>Location</th>
-	</tr>
-	<% @shops.each do |shop| %>
-	<tr>
-		<td><%= shop.name %></td>
-		<td><%= shop.location %></td>
-	</tr>
-	<% end %>
-</table>
-</div>
 
-<div id="owners-details">
-<h2> Owner Details</h2>
-	<table>
-	<tr>
-		<th>Name</th>
-		<th>Phno</th>
-	</tr>
-	<% @owners.each do |owner| %>
-	<tr>
-		<td><%= owner.name %></td>
-		<td><%= owner.phno %></td>
-	</tr>
-	<% end %>
-</table>
-</div>
-
-
-<div id="flowers-details">
-<h2> Flower Details</h2>
-	<table>
-	<tr>
-		<th>Flower Type</th>
-		<th>Cost</th>
-	</tr>
-	<% @flowers.each do |flower| %>
-	<tr>
-		<td><%= flower.flowerType %></td>
-		<td><%= flower.cost %></td>
-	</tr>
-	<% end %>
-</table>
-</div>
-</div>
-
-<div>
-<div id="warehouse-shop-relation">
-	<h2>Warehouse Shop Relation</h2>
-			<% @warehouses.each do |warehouse|%>
-			<%= warehouse.name%>
-				<% warehouse.shops.each do |shop| %>
-				<ul>
-					<li>
-						<%=shop.name%>	
-					</li>
-				</ul>
-				<% end %>
-			<% end %>
-</div>
-
-<div id= "onwner-shop-relation">
-	<h2>Owner Shop Relation</h2>
-		<% @owners.each do |owner| %>
-		<%= owner.name%>
-			<% owner.shops.each do |shop|%>
+<div id="flower_query">
+		<h2>Shops that sells Sunflower</h2>
+		<% @shops_q.each do |shop_q|%>
 			<ul>
-				<li><%=shop.name%></li>
-			</ul>
-			<%end%>
+			<li><%= shop_q.name%></li>
+			</ul>	
 		<%end%>
+	</div>
+	<div id="market_cost">
+		<h2>Total Market Cost:</h2> <%= @market_cost%>
+	</div>
 </div>
-
-<div id="shop-flower-relation">
-	<h2>Shop Flower Relation</h2>
-	<% @shops.each do |shop| %>
-		<%= shop.name %>
-		<% shop.flowers.each do |flower| %>
-		<ul>
-			<li><%=flower.flowerType%></li>
-		</ul>
-		<% end %>
-	<% end %>
-</div>
-
-<div id="warehouse-owner-relation">
-	<h2>Warehouse owner Relation</h2>
-	<% @warehouses.each do |warehouse|%>
-		<%= warehouse.name%>
-		<% warehouse.owners.each do |owner|%>
-		<ul>
-			<li><%=owner.name%></li>
-		</ul>
-		<%end%>
-	<% end %>
-</div>
-
-</div>
-
-<h1><%=@warehouse_q%></h1>
