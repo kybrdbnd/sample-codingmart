@@ -11,6 +11,25 @@
 		<%end%>
 	</div>
 	<div id="market_cost">
-		<h2>Total Market Cost:</h2> <%= @market_cost%>
+		<h2>Total Market Cost:<%= @market_cost%></h2> 
+	</div>
+
+	<div id="shops_cost">
+		<h2>Total Earning by Shops:</h2>
+		<% @shop_total.each do |shop| %>
+			<ul>
+				<li>Shop id:<%= shop[0]%></li>
+				<li>Amount:<%= shop[1]%></li>
+			</ul>
+		<% end %>
+	</div>
+	<div id="owners_cost">
+		<h2>Total Earning by Owners:</h2>
+		<% @owners_total.each do |owner| %>
+			<ul>
+				<li>Owner id:<%= owner[0]%></li>
+				<li>Amount:<%= owner[1]%></li>
+			</ul>
+		<% end %>
 	</div>
 </div>

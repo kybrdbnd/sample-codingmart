@@ -9,14 +9,15 @@ class MarketController < ApplicationController
 					.joins(:flowers)
 					.where('flower_id=3')
 
-		@shops.find_each do |shop|
-			@flowers_q = Flower
-						.joins(:shops)
-						.where('flowers_shops.shop_id=?',shop.id)
-						.sum(:cost)
-			 puts @flowers_q	
-		end
-
+		@shop_total = Order.group(:shop_id).sum(:amount)
+		# @test = Order.group(:owner_id)
+		puts @shop_total.inspect
+		@owners_total = Order
+						.select('owner_id, amount')
+						.joins(shop: :owner)
+						.group('owner_id')
+						.sum(:amount)
+		puts @owners_total.inspect
 		@flower_cost = Flower.sum(:cost)
 		@warehouse_quantity = Warehouse.sum(:quantity)
 		@market_cost = @flower_cost * @warehouse_quantity
